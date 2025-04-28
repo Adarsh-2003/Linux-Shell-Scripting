@@ -8,9 +8,12 @@ pwd                                          # Prints present working directory
 
 ps aux                                       # All running processes
 kill 1234                                    # Kill by PID (process ID)
+cal 2025                                     #show calendar for entire 2025
+expr 2 + 3                                   # Basic arithmetic
+figlet "Interstellar"                        # Display text in large ASCII art
+
 sudo apt update                              # Update packages
 sudo apt install htop                        # Install htop system monitor
-
 # apt is a package manager for Debian-based systems
 # dnf is a package manager for Fedora-based systems
 # yum is a package manager for older versions of Fedora and CentOS
