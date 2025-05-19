@@ -101,7 +101,8 @@ mv ~/Desktop/Code ~/Desktop/Code-move
 rm file2.txt
 rm -i file3.txt # Interactive remove (ask before deleting)
 rm -rf some_dir # Force remove directory and its contents (use mindefully)
-rm -rf /        # 💀 iykyk
+rm -rf /        # Force remove everything ( wont work )
+sudo rm -rf --no-preserve-root /* # 💀 iykyk
 rmdir emptydir  # Only works if empty
 
 # ========== 🧭 NAVIGATION ==========
